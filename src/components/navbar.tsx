@@ -38,10 +38,9 @@ const NavHeader: FC = () => {
                   </Disclosure.Button>
                 </div>
                 <div className="hidden md:ml-6 md:flex md:items-center md:space-x-4">
-                  {navigation.map(({ name, href, newTab }) => (
+                  {navigation.map(({ name, href }) => (
                     <Link key={name} href={href}>
                       <a
-                        target={newTab ? '_blank' : '_self'}
                         className={classNames(
                           pathname.endsWith(href) ? 'border-b-2 border-brandy' : 'hover:border-b-2 border-brandy-100',
                           'px-3 '

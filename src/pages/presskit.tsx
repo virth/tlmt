@@ -35,7 +35,6 @@ const ElectronicPressKit: NextPage = () => {
               <Heading3>Members</Heading3>
 
               <TextBlock>... coming soon</TextBlock>
-
             </div>
           </div>
         </Section>

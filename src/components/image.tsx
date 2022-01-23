@@ -11,5 +11,3 @@ const Img: FC<ImageProps> = ({ className = '', src, alt }) => (
 );
 
 export default Img;
-
-
