@@ -14,7 +14,7 @@ export type SocialMediaLinkProps = {
 
 export const SocialMediaLink: FC<SocialMediaLinkProps> = ({ socialMedia, children }) => (
   <Link href={socialMediaLinks[socialMedia]}>
-    <a className="flex items-center text-lg fill-white hover:fill-sundance hover:text-sundance">
+    <a className="flex items-center text-lg fill-white hover:fill-sundance hover:text-sundance mx-2">
       {children}
       <span className="ml-3">{socialMedia}</span>
     </a>

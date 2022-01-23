@@ -29,7 +29,7 @@ const Home: NextPage = () => {
         <div className="flex justify-center">
           <Img src="/img/monkey.png" alt={'angry gorilla'} className="max-h-[120vh]" />
         </div>
-        <Grid cols={4}>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 xl:gap-16">
           <SocialMediaLink socialMedia={'YouTube'}>
             <YouTubeIcon></YouTubeIcon>
           </SocialMediaLink>
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
           <SocialMediaLink socialMedia={'Facebook'}>
             <FacebookIcon></FacebookIcon>
           </SocialMediaLink>
-        </Grid>
+        </div>
       </PageHeader>
       <main>
         <Section bgColor={true}>
@@ -103,17 +103,5 @@ const Home: NextPage = () => {
     </div>
   );
 };
-
-// export const getStaticProps: GetStaticProps<Props> = async () => {
-//   return {
-//     props: {
-//       posts: [
-//         ...mapMediumPosts(MediumArticles),
-//       ].sort(({ date: first }, { date: second }) => (dayjs(first).isAfter(dayjs(second)) ? -1 : 1)),
-//     },
-//     revalidate: 300,
-//   };
-// };
-// )
 
 export default Home;

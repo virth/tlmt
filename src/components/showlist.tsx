@@ -14,26 +14,28 @@ export type ShowListProps = {
 };
 
 export const ShowList: FC<ShowListProps> = ({ year, shows }) => (
-  <div className="mb-8 last:mb-0">
+  <div className="mb-8 last:mb-0 text-sm md:text-base">
     <Heading3>{year}</Heading3>
-    {shows.length > 0 ? (
-      shows.map(({ name, date, place, url = '' }, index) => (
-        <li key={index}>
-          {date} —{' '}
-          {url ? (
-            <Link href={url}>
-              <a className="hover:text-sundance" target="_blank">
-                {name}
-              </a>
-            </Link>
-          ) : (
-            name
-          )}
-          , <span className="text-gray-500">{place}</span>
-        </li>
-      ))
-    ) : (
-      <span className="text-gray-500">Noch keine Shows geplant. </span>
-    )}
+    <ul>
+      {shows.length > 0 ? (
+        shows.map(({ name, date, place, url = '' }, index) => (
+          <li key={index}>
+            {date} —{' '}
+            {url ? (
+              <Link href={url}>
+                <a className="hover:text-sundance" target="_blank">
+                  {name}
+                </a>
+              </Link>
+            ) : (
+              name
+            )}
+            , <span className="text-gray-500">{place}</span>
+          </li>
+        ))
+      ) : (
+        <li className="text-gray-500">Noch keine Shows geplant. </li>
+      )}
+    </ul>
   </div>
 );
