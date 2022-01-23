@@ -17,7 +17,7 @@ const ElectronicPressKit: NextPage = () => {
       </PageHeader>
       <main>
         <Section>
-          <div className="grid grid-cols-[1fr,2fr]">
+          <div className="grid grid-cols1 md:grid-cols-[1fr,2fr] gap-8 xl:gap-16">
             <div>
               <Heading2>Music</Heading2>
               coming soon ...

@@ -55,7 +55,7 @@ const NavHeader: FC = () => {
               </div>
               <div className="flex items-center">
                 <div className="flex-shrink-0">
-                  <Link href="/buchen">
+                  <Link href="mailto:band@tlmt.ch">
                     <a>
                       <Button>
                         <CalendarIcon className="-ml-1 mr-2 h-5 w-5" aria-hidden="true" />
