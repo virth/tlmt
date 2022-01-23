@@ -70,11 +70,10 @@ const NavHeader: FC = () => {
 
           <Disclosure.Panel className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              {navigation.map(({ name, href, newTab }) => (
+              {navigation.map(({ name, href }) => (
                 <Disclosure.Button
                   key={name}
                   as="a"
-                  target={newTab ? '_blank' : '_self'}
                   href={href}
                   className={classNames(
                     pathname.endsWith(href) ? 'underline' : 'hover:bg-brandy-300 hover:text-white',
