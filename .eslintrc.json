@@ -1,0 +1,7 @@
+{
+  "extends": ["@smartive/eslint-config/react", "next"],
+  "rules": {
+    "react/display-name": "off",
+    "@next/next/google-font-display": "off"
+  }
+}
