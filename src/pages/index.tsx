@@ -25,7 +25,7 @@ const Home: NextPage = () => {
 
   return (
     <div>
-      <PageHeader title="TLMT" description="Schweizer Rockband.">
+      <PageHeader>
         <div className="flex justify-center">
           <Img src="/img/monkey.png" alt={'angry gorilla'} className="max-h-[120vh]" />
         </div>

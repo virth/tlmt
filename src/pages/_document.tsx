@@ -10,11 +10,11 @@ export default class CustomDocument extends Document {
           <meta name="apple-mobile-web-app-status-bar-style" content="default" />
           <meta name="apple-mobile-web-app-title" content="TLMT" />
           <meta name="mobile-web-app-capable" content="yes" />
-          <meta name="theme-color" content="#DA3525" />
+          <meta name="theme-color" content="#000000" />
+          <meta property="og:image" content="/img/monkey_sm.png" />
 
           <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700" rel="stylesheet" />
           <link rel="icon" href="/favicon.ico" />
           <link rel="manifest" href="/manifest.json" />
         </Head>

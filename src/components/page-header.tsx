@@ -18,15 +18,20 @@ export type PageHeaderProps = {
   fullscreen?: boolean;
 };
 
-export const PageHeader: FC<PageHeaderProps> = ({ title = '', description, fullscreen, children }) => {
+export const PageHeader: FC<PageHeaderProps> = ({
+  title = '',
+  description = 'Wer die Foo Fighters, Shinedown oder Papa Roach mag ist bei TLMT genau richtig.',
+  fullscreen,
+  children,
+}) => {
   const { asPath } = useRouter();
   const pageUrl = `${SITE_URL}${asPath}`;
 
   return (
     <>
       <Head>
-        {title && <title>{title.replace(new RegExp('_', 'g'), '')} — TLMT</title>}
-        {!title && <title>Rockband — TLMT</title>}
+        {!title && <title>TLMT — Rockband</title>}
+        {title && <title>{title} — TLMT</title>}
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />

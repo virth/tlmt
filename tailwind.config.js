@@ -2,12 +2,11 @@ module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     fontFamily: {
-      sans: ['"Roboto"', 'sans'],
-      serif: ['"Noto Serif"', 'serif'],
+      sans: ['"Roboto Mono"', 'sans'],
     },
     fontWeight: {
-      light: '300',
-      normal: '500',
+      light: '400',
+      normal: '600',
       bold: '700',
     },
     fontSize: {
