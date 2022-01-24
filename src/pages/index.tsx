@@ -25,24 +25,26 @@ const Home: NextPage = () => {
 
   return (
     <div>
-      <PageHeader>
+      <PageHeader fullscreen={true}>
         <div className="flex justify-center">
           <Img src="/img/monkey.png" alt={'angry gorilla'} className="max-h-[120vh]" />
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 xl:gap-16">
-          <SocialMediaLink socialMedia={'YouTube'}>
-            <YouTubeIcon></YouTubeIcon>
-          </SocialMediaLink>
-          <SocialMediaLink socialMedia={'Spotify'}>
-            <SpotifyIcon></SpotifyIcon>
-          </SocialMediaLink>
-          <SocialMediaLink socialMedia={'Instagram'}>
-            <InstagramIcon></InstagramIcon>
-          </SocialMediaLink>
-          <SocialMediaLink socialMedia={'Facebook'}>
-            <FacebookIcon></FacebookIcon>
-          </SocialMediaLink>
-        </div>
+        <Section>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 xl:gap-16">
+            <SocialMediaLink socialMedia={'YouTube'}>
+              <YouTubeIcon></YouTubeIcon>
+            </SocialMediaLink>
+            <SocialMediaLink socialMedia={'Spotify'}>
+              <SpotifyIcon></SpotifyIcon>
+            </SocialMediaLink>
+            <SocialMediaLink socialMedia={'Instagram'}>
+              <InstagramIcon></InstagramIcon>
+            </SocialMediaLink>
+            <SocialMediaLink socialMedia={'Facebook'}>
+              <FacebookIcon></FacebookIcon>
+            </SocialMediaLink>
+          </div>
+        </Section>
       </PageHeader>
       <main>
         <Section bgColor={true}>

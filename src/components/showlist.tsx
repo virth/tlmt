@@ -4,38 +4,47 @@ import { Heading3 } from '../identity/heading-3';
 
 export type ShowListProps = {
   year: number;
-  shows: {
-    date?: string;
-    place?: string;
-    name?: string;
-    unplugged?: string;
-    url?: string;
-  }[];
+  shows: ShowProps[];
+};
+
+export type ShowProps = {
+  date?: string;
+  place?: string;
+  name?: string;
+  unplugged?: string;
+  url?: string;
 };
 
 export const ShowList: FC<ShowListProps> = ({ year, shows }) => (
-  <div className="mb-8 last:mb-0 text-sm md:text-base">
+  <div className="mb-16 last:mb-0 text-sm md:text-base">
     <Heading3>{year}</Heading3>
-    <ul>
-      {shows.length > 0 ? (
-        shows.map(({ name, date, place, url = '' }, index) => (
+    {shows.length < 1 ? (
+      <span className="text-gray-500">Noch keine Shows geplant.</span>
+    ) : (
+      <ul className="list-disc pl-4 md:list-none md:pl-0">
+        {shows.map(({ name, date, place, url = '' }, index) => (
           <li key={index}>
-            {date} —{' '}
             {url ? (
               <Link href={url}>
-                <a className="hover:text-sundance" target="_blank">
-                  {name}
+                <a className="hover:border-b-4" target="_blank">
+                  <Show name={name} date={date} place={place} />
                 </a>
               </Link>
             ) : (
-              name
+              <Show name={name} date={date} place={place} />
             )}
-            , <span className="text-gray-500">{place}</span>
           </li>
-        ))
-      ) : (
-        <li className="text-gray-500">Noch keine Shows geplant. </li>
-      )}
-    </ul>
+        ))}
+      </ul>
+    )}
   </div>
+);
+
+export const Show: FC<ShowProps> = ({ name, date, place }) => (
+  <>
+    <span>
+      {date} — {name}
+    </span>
+    <span className="text-gray-500 block mb-3 last:mb-0 md:inline md:ml-2 font-light">{place}</span>
+  </>
 );

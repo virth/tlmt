@@ -300,6 +300,7 @@
     {
       "date": "07. Juli",
       "name": "Rock Am Gleis", "place": "Rheineck (SG)",
+      "url": "https://www.rockamgleis.ch/",
       "unplugged": ""
     },
     {
@@ -355,6 +356,7 @@
     {
       "date": "28. Oktober",
       "name": "Gädeli Bar", "place": "Waldtstatt (AI)",
+      "url": "https://www.xn--gdeli-bar-v2a.ch/",
       "unplugged": "TRUE"
     }
   ]
