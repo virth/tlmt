@@ -17,7 +17,15 @@ const Teaser: FC<TeaserProps> = ({ title, text = '', imgPath, href, linkText }) 
       <NextLink href={href}>
         <a className="max-w-lg">
           <div className="grid lg:grid-rows-[auto,1fr,1fr] relative">
-            <Image src={imgPath} alt={text} objectFit="cover" layout="responsive" width={500} height={500} />
+            <Image
+              src={imgPath}
+              alt={text}
+              objectFit="cover"
+              layout="responsive"
+              width={500}
+              height={500}
+              className="rounded"
+            />
             <Heading3 className="mt-8">{title}</Heading3>
             {text && <p>{text}</p>}
             <div className="mt-4">

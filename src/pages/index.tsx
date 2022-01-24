@@ -52,7 +52,7 @@ const Home: NextPage = () => {
               imgPath="/img/releases/2021/tfc-remix.png"
               href="https://distrokid.com/hyperfollow/tlmt/time-for-a-change-80s-remix"
               text="Achtzigerjahre Dance Remix von «Time For A Change» jetzt auf allen Streaming Plattformen."
-              linkText="Zum Song"
+              linkText="Song anhören"
             />
           </Grid>
         </Section>

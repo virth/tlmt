@@ -38,20 +38,12 @@ export const ContactInfo: FC<ContactInfoProps> = ({ className = '', hoverBlack =
       </a>
     </NextLink>
     <span className="mt-2">
-      <Link
-        href={`tel:${Address.telephone}`}
-        itemProp="telephone"
-        className={hoverBlack ? 'hover:border-black' : 'hover:border-sundance'}
-      >
+      <Link href={`tel:${Address.telephone}`} itemProp="telephone" hoverBlack={hoverBlack}>
         {Address.telephone}
       </Link>
     </span>
     <span>
-      <Link
-        href={`mailto:${Address.email}`}
-        itemProp="email"
-        className={hoverBlack ? 'hover:border-black' : 'hover:border-sundance'}
-      >
+      <Link href={`mailto:${Address.email}`} itemProp="email" hoverBlack={hoverBlack}>
         {Address.email}
       </Link>
     </span>
