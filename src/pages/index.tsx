@@ -8,7 +8,6 @@ import { ShowList } from '../components/showlist';
 import { SocialMediaLink } from '../components/social-media-link';
 import Teaser from '../components/teaser';
 import Shows from '../data/shows.json';
-import { FacebookIcon, InstagramIcon, SpotifyIcon, YouTubeIcon } from '../identity/icons';
 
 const band = [
   { name: 'Josh', img: 'bg-josh-gold hover:bg-josh' },
@@ -31,18 +30,10 @@ const Home: NextPage = () => {
         </div>
         <Section>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 xl:gap-16">
-            <SocialMediaLink socialMedia={'YouTube'}>
-              <YouTubeIcon></YouTubeIcon>
-            </SocialMediaLink>
-            <SocialMediaLink socialMedia={'Spotify'}>
-              <SpotifyIcon></SpotifyIcon>
-            </SocialMediaLink>
-            <SocialMediaLink socialMedia={'Instagram'}>
-              <InstagramIcon></InstagramIcon>
-            </SocialMediaLink>
-            <SocialMediaLink socialMedia={'Facebook'}>
-              <FacebookIcon></FacebookIcon>
-            </SocialMediaLink>
+            <SocialMediaLink socialMedia={'YouTube'} />
+            <SocialMediaLink socialMedia={'Spotify'} />
+            <SocialMediaLink socialMedia={'Instagram'} />
+            <SocialMediaLink socialMedia={'Facebook'} />
           </div>
         </Section>
       </PageHeader>
@@ -50,27 +41,30 @@ const Home: NextPage = () => {
         <Section bgColor={true}>
           <Grid cols={2}>
             <Teaser
-              title="New video out now!"
-              imgPath="/img/teaser/bwyan_thumbnail.jpeg"
+              title="video out now!"
+              imgPath="/img/releases/2021/bwyan.png"
               href="https://youtu.be/75pBElJ-w3I"
+              text="Das Musikvideo zu unserem Song «Be With You All Night» jetzt auf YouTube."
               linkText="Video ansehen"
             />
             <Teaser
               title="TFC — 80's Remix"
-              imgPath="/img/teaser/tfc-remix-thumbnail.jpeg"
+              imgPath="/img/releases/2021/tfc-remix.png"
               href="https://distrokid.com/hyperfollow/tlmt/time-for-a-change-80s-remix"
+              text="Achtzigerjahre Dance Remix von «Time For A Change» jetzt auf allen Streaming Plattformen."
               linkText="Zum Song"
             />
           </Grid>
         </Section>
 
         <Section title="Shows" navigationId="shows">
-          {sortedShows
-            .filter(({ year }) => year > 2019)
-            .map(({ year, shows }) => (
-              <ShowList key={year} year={year} shows={shows} />
-            ))}
-
+          <Grid cols="2-lg">
+            {sortedShows
+              .filter(({ year }) => year > 2019)
+              .map(({ year, shows }) => (
+                <ShowList key={year} year={year} shows={shows} />
+              ))}
+          </Grid>
           <button
             className="border-b-4 hover:border-sundance mb-4"
             onClick={() => {
@@ -79,11 +73,12 @@ const Home: NextPage = () => {
           >
             {showAllShows ? 'Alte Shows ausblenden' : 'Alle Shows anzeigen'}
           </button>
-
-          {showAllShows &&
-            sortedShows
-              .filter(({ year }) => year <= 2019)
-              .map(({ year, shows }) => <ShowList key={year} year={year} shows={shows} />)}
+          <Grid cols="2-lg">
+            {showAllShows &&
+              sortedShows
+                .filter(({ year }) => year <= 2019)
+                .map(({ year, shows }) => <ShowList key={year} year={year} shows={shows} />)}
+          </Grid>
         </Section>
 
         <Section title="Band" navigationId="band">

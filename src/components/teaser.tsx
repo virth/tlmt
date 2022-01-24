@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import NextLink from 'next/link';
 import { FC } from 'react';
 import { Heading3 } from '../identity/heading-3';
@@ -15,8 +16,8 @@ const Teaser: FC<TeaserProps> = ({ title, text = '', imgPath, href, linkText }) 
     <>
       <NextLink href={href}>
         <a className="max-w-lg">
-          <div className="grid lg:grid-rows-[auto,1fr,1fr]">
-            <img src={imgPath} alt={text} className="rounded-xl object-cover w-full h-80 mx-auto" />
+          <div className="grid lg:grid-rows-[auto,1fr,1fr] relative">
+            <Image src={imgPath} alt={text} objectFit="cover" layout="responsive" width={500} height={500} />
             <Heading3 className="mt-8">{title}</Heading3>
             {text && <p>{text}</p>}
             <div className="mt-4">

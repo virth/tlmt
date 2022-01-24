@@ -14,17 +14,17 @@ const Address = {
 
 export type ContactInfoProps = {
   className?: string;
-  linkClassName?: string;
+  hoverBlack?: boolean;
 };
 
-export const ContactInfo: FC<ContactInfoProps> = ({ className = '', linkClassName = '' }) => (
+export const ContactInfo: FC<ContactInfoProps> = ({ className = '', hoverBlack = false }) => (
   <address
     className={`${className} not-italic grid grid-flow-row place-self-start gap1`}
     itemScope
     itemType="http://schema.org/Organization"
   >
     <NextLink href="/standort">
-      <a className="hover:text-brandy-100">
+      <a className={hoverBlack ? 'hover:text-black' : 'hover:text-sundance'}>
         <span itemProp="name">{Address.name}</span>
         <div itemProp="address" itemScope itemType="http://schema.org/PostalAddress">
           <div>
@@ -38,12 +38,20 @@ export const ContactInfo: FC<ContactInfoProps> = ({ className = '', linkClassNam
       </a>
     </NextLink>
     <span className="mt-2">
-      <Link href={`tel:${Address.telephone}`} itemProp="telephone" className={linkClassName}>
+      <Link
+        href={`tel:${Address.telephone}`}
+        itemProp="telephone"
+        className={hoverBlack ? 'hover:border-black' : 'hover:border-sundance'}
+      >
         {Address.telephone}
       </Link>
     </span>
     <span>
-      <Link href={`mailto:${Address.email}`} itemProp="email" className={linkClassName}>
+      <Link
+        href={`mailto:${Address.email}`}
+        itemProp="email"
+        className={hoverBlack ? 'hover:border-black' : 'hover:border-sundance'}
+      >
         {Address.email}
       </Link>
     </span>

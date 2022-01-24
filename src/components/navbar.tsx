@@ -28,10 +28,10 @@ const NavHeader: FC = () => {
               <div className="flex">
                 <div className="-ml-2 mr-2 flex items-center md:hidden">
                   {/* Mobile menu button */}
-                  <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md hover:text-white hover:bg-brandy focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                  <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md hover:text-sundance  focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sundance">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
-                      <XIcon className="block h-6 w-6 hover:text-white" aria-hidden="true" />
+                      <XIcon className="block h-6 w-6 hover:text-sundance" aria-hidden="true" />
                     ) : (
                       <MenuIcon className="block h-6 w-6" aria-hidden="true" />
                     )}
@@ -42,7 +42,7 @@ const NavHeader: FC = () => {
                     <Link key={name} href={href}>
                       <a
                         className={classNames(
-                          pathname.endsWith(href) ? 'border-b-2 border-brandy' : 'hover:border-b-2 border-brandy-100',
+                          pathname.endsWith(href) ? 'border-b-4 border-sundance' : 'hover:border-b-2 border-sundance',
                           'px-3 '
                         )}
                         aria-current={pathname.endsWith(href) ? 'page' : undefined}
@@ -76,7 +76,7 @@ const NavHeader: FC = () => {
                   as="a"
                   href={href}
                   className={classNames(
-                    pathname.endsWith(href) ? 'underline' : 'hover:bg-brandy-300 hover:text-white',
+                    pathname.endsWith(href) ? 'underline' : 'hover:bg-sundance hover:text-black',
                     'block px-3 py-2 rounded-md text-base font-medium'
                   )}
                   aria-current={pathname.endsWith(href) ? 'page' : undefined}
