@@ -1,431 +1,504 @@
-[ 
+[
   {
     "year": 2009,
     "shows": [
-    {
-      "date": "04. April",
-      "name": "Privater Anlass", "place": "Mörschwil (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "25. April",
-      "name": "Jugendtag", "place": "Mörschwil (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "29. Mai",
-      "name": "Privater Anlass", "place": "Zufikon (AG)",
-      "unplugged": ""
-    },
-    {
-      "date": "13. Juni",
-      "name": "Rock The Wolves", "place": "Wolfhalden (AR)",
-      "unplugged": ""
-    },
-    {
-      "date": "03. Juli",
-      "name": "Badifäscht", "place": "Roschach (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "05. September",
-      "name": "Motocross", "place": "Uhwilen (TG)",
-      "unplugged": ""
-    },
-    {
-      "date": "12. September",
-      "name": "Dorffest", "place": "Speicher (AR)",
-      "unplugged": ""
-    },
-    {
-      "date": "23. Oktober",
-      "name": "Talhof", "place": "St.Gallen (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "24. Dezember",
-      "name": "Privater Anlass", "place": "Mörschwil (SG)",
-      "unplugged": "TRUE"
-    }
+      {
+        "date": "04. April",
+        "name": "Privater Anlass",
+        "place": "Mörschwil (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "25. April",
+        "name": "Jugendtag",
+        "place": "Mörschwil (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "29. Mai",
+        "name": "Privater Anlass",
+        "place": "Zufikon (AG)",
+        "unplugged": ""
+      },
+      {
+        "date": "13. Juni",
+        "name": "Rock The Wolves",
+        "place": "Wolfhalden (AR)",
+        "unplugged": ""
+      },
+      {
+        "date": "03. Juli",
+        "name": "Badifäscht",
+        "place": "Roschach (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "05. September",
+        "name": "Motocross",
+        "place": "Uhwilen (TG)",
+        "unplugged": ""
+      },
+      {
+        "date": "12. September",
+        "name": "Dorffest",
+        "place": "Speicher (AR)",
+        "unplugged": ""
+      },
+      {
+        "date": "23. Oktober",
+        "name": "Talhof",
+        "place": "St.Gallen (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "24. Dezember",
+        "name": "Privater Anlass",
+        "place": "Mörschwil (SG)",
+        "unplugged": "TRUE"
+      }
     ]
   },
   {
     "year": 2010,
     "shows": [
-    {
-      "date": "30. Januar",
-      "name": "Newcomernight Flon", "place": "St.Gallen (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "11. April",
-      "name": "Privat Anlass", "place": "Au (SG)",
-      "unplugged": "TRUE"
-    },
-    {
-      "date": "01. Mai",
-      "name": "Jugendtag", "place": "Schwellbrunn (AI)",
-      "unplugged": ""
-    },
-    {
-      "date": "21. Mai",
-      "name": "Privater Anlass", "place": "Speicher (AR)",
-      "unplugged": ""
-    },
-    {
-      "date": "30. Mai",
-      "name": "Open Doors", "place": "St.Gallen (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "05. Juni",
-      "name": "Privater Anlass", "place": "Romanshorn (TG)",
-      "unplugged": "TRUE"
-    },
-    {
-      "date": "18. Juni",
-      "name": "Grümpeliturnier", "place": "Teufen (AR)",
-      "unplugged": ""
-    },
-    {
-      "date": "19. Juni",
-      "name": "Grümpeliturnier", "place": "Teufen (AR)",
-      "unplugged": ""
-    },
-    {
-      "date": "20. August",
-      "name": "Seifenkistenderby", "place": "Andwil (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "30. September",
-      "name": "Live uf dä Gass", "place": "Rorschach (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "01. Oktober",
-      "name": "Herren Globus", "place": "St.Gallen (SG)",
-      "unplugged": "TRUE"
-    },
-    {
-      "date": "02. Oktober",
-      "name": "Herren Globus", "place": "St.Gallen (SG)",
-      "unplugged": "TRUE"
-    },
-    {
-      "date": "22. Oktober",
-      "name": "Talhof", "place": "St.Gallen (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "23. Oktober",
-      "name": "Kultur in Mörschwil", "place": "Mörschwil (SG)",
-      "unplugged": "TRUE"
-    },
-    {
-      "date": "07. November",
-      "name": "Villa am See", "place": "Goldach (SG)",
-      "unplugged": "TRUE"
-    },
-    {
-      "date": "12. November",
-      "name": "Jugendtreff", "place": "Degersheim (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "13. November",
-      "name": "Meisterfeier", "place": "Märstetten (TG)",
-      "unplugged": ""
-    },
-    {
-      "date": "20. November",
-      "name": "Turnfest", "place": "Sonterswil (TG)",
-      "unplugged": ""
-    },
-    {
-      "date": "27. November",
-      "name": "Turnverein", "place": "Fahrwangen (AG)",
-      "unplugged": ""
-    },
-    {
-      "date": "03. Dezember",
-      "name": "Privater Anlass", "place": "Engelburg (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "04. Dezember",
-      "name": "Turnverein", "place": "Fahrwangen (AG)",
-      "unplugged": ""
-    },
-    {
-      "date": "18. Dezember",
-      "name": "Party Night", "place": "Herisau (AR)",
-      "unplugged": ""
-    }
-  ]
-},
-{
-"year": 2011,
-"shows": [
-    {
-      "date": "19. Mai",
-      "name": "Live uf dä Gass", "place": "Rorschach (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "03. September",
-      "name": "Plattentaufe Talhof", "place": "St.Gallen (SG)",
-      "unplugged": ""
-    }
-  ]
-},
-{
-"year": 2012,
-"shows": [
-    {
-      "date": "28. April",
-      "name": "Lutzifer Pub", "place": "Arbon (TG)",
-      "unplugged": ""
-    },
-    {
-      "date": "01. September",
-      "name": "Dorfchilbi", "place": "Oberglatt (ZH)",
-      "unplugged": ""
-    },
-    {
-      "date": "15. September",
-      "name": "Fabrik", "place": "Mosnang (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "29. September",
-      "name": "BandXOst 2012", "place": "Herisau (AR)",
-      "unplugged": ""
-    },
-    {
-      "date": "27. Oktober",
-      "name": "Privater Anlass", "place": "Bischofszell (TG)",
-      "unplugged": ""
-    }
-  ]
-},
-{
-"year": 2013,
-"shows": [
-    {
-      "date": "11. Mai",
-      "name": "Kulturkartell", "place": "Erlen (TG)",
-      "unplugged": ""
-    },
-    {
-      "date": "17. Mai",
-      "name": "Privater Anlass", "place": "Berneck (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "25. Mai",
-      "name": "Openair Bischofszell", "place": "Bischofszell (TG)",
-      "unplugged": ""
-    },
-    {
-      "date": "10. August",
-      "name": "Hotel Bären", "place": "Bazenheid (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "28. September",
-      "name": "BandxOst 2013", "place": "Herisau (TG)",
-      "unplugged": ""
-    },
-    {
-      "date": "17. Oktober",
-      "name": "Clash Of Sounds 2013", "place": "Bregenz (A)",
-      "unplugged": "TRUE"
-    },
-    {
-      "date": "25. Oktober",
-      "name": "AA-Jam", "place": "Aadorf (TG)",
-      "unplugged": ""
-    }
-  ]
-},
-{
-"year": 2014,
-"shows": [
-    {
-      "date": "01. März",
-      "name": "Grabenhalle", "place": "St.Gallen (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "21. Juni",
-      "name": "Sommerfest Iltenriet", "place": "Goldach (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "23. August",
-      "name": "Strassenfest Jungkult", "place": "St.Gallen (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "15. November",
-      "name": "Kornhausbräu", "place": "Rorschach (SG)",
-      "unplugged": ""
-    }
-  ]
-},
-{
-"year": 2015,
-"shows": [
-    {
-      "date": "25. Februar",
-      "name": "Privater Anlass", "place": "Speicher (AR)",
-      "unplugged": ""
-    },
-    {
-      "date": "07. März",
-      "name": "Raabenkeller", "place": "Eschenz (TG)",
-      "unplugged": "unpluged"
-    },
-    {
-      "date": "01. Mai",
-      "name": "Rock am Freitag", "place": "Wil (SG)",
-      "unplugged": "unpluged"
-    },
-    {
-      "date": "03. Juli",
-      "name": "Privater Anlass", "place": "Goldach (SG)",
-      "unplugged": "unpluged"
-    },
-    {
-      "date": "07. Juli",
-      "name": "Rock Am Gleis", "place": "Rheineck (SG)",
-      "url": "https://www.rockamgleis.ch/",
-      "unplugged": ""
-    },
-    {
-      "date": "22. Juli",
-      "name": "Privater Anlass", "place": "Eggersriet (SG)",
-      "unplugged": "TRUE"
-    },
-    {
-      "date": "15. August",
-      "name": "St.Gallerfest", "place": "St.Gallen (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "15. August",
-      "name": "Staablueme", "place": "Altstätten (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "05. September",
-      "name": "Gassefescht", "place": "Teufen (AR)",
-      "unplugged": "TRUE"
-    },
-    {
-      "date": "17. September",
-      "name": "Jugendtreff Cevi", "place": "Rorschach (SG)",
-      "unplugged": "TRUE"
-    },
-    {
-      "date": "13. Oktober",
-      "name": "Talhof Festival", "place": "St.Gallen (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "31. Dezember",
-      "name": "Irish Pub", "place": "St.Gallen (SG)",
-      "unplugged": "TRUE"
-    }
-  ]
-},
-{
-"year": 2016,
-"shows": [
-    {
-      "date": "23. Januar",
-      "name": "Privater Anlass", "place": "Appenzell (AI)",
-      "unplugged": "TRUE"
-    },
-    {
-      "date": "09. September",
-      "name": "Privater Anlass", "place": "Wil (SG)",
-      "unplugged": "TRUE"
-    },
-    {
-      "date": "28. Oktober",
-      "name": "Gädeli Bar", "place": "Waldtstatt (AI)",
-      "url": "https://www.xn--gdeli-bar-v2a.ch/",
-      "unplugged": "TRUE"
-    }
-  ]
-},
-{
-"year": 2018,
-"shows": [
-    {
-      "date": "14. Juli",
-      "name": "Privater Anlass", "place": "Arbon (TG)",
-      "unplugged": "TRUE"
-    },
-    {
-      "date": "07. April",
-      "name": "Privater Anlass", "place": "Arbon (TG)",
-      "unplugged": "TRUE"
-    }
-  ]
-},
-{
-"year": 2019,
-"shows": [
-    {
-      "date": "27. April",
-      "name": "Privater Anlass", "place": "Mörschwil (SG)",
-      "unplugged": "TRUE"
-    }
-  ]
-},
-{
-"year": 2021,
-"shows": [
-    {
-      "date": "17. Juli",
-      "name": "Greenwood Festival", "place": "Gossau (SG)",
-      "url": "https://greenwood-festival.com",
-      "unplugged": ""
-    },
-    {
-      "date": "31. Juli",
-      "name": "Openair Stärkliswil", "place": "Andwil (SG)",
-      "unplugged": ""
-    },
-    {
-      "date": "13. August",
-      "name": "Openair Party", "place": "Bernhardzell (SG)",
-      "url": "https://oapb.ch",
-      "unplugged": ""
-    },
-    {
-      "date": "14. August",
-      "name": "Openair Party", "place": "Bernhardzell (SG)",
-      "url": "https://oapb.ch",
-      "unplugged": ""
-    },
-    {
-      "date": "06. November",
-      "name": "Treppenhaus", "place": "Rorschach (SG)",
-      "url": "https://treppenhaus.ch",
-      "unplugged": ""
-    },
-    {
-      "date": "18. November",
-      "name": "Störkultur", "place": "Amriswil (TG)",
-      "unplugged": ""
-    }
-  ]
+      {
+        "date": "30. Januar",
+        "name": "Newcomernight Flon",
+        "place": "St.Gallen (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "11. April",
+        "name": "Privat Anlass",
+        "place": "Au (SG)",
+        "unplugged": "TRUE"
+      },
+      {
+        "date": "01. Mai",
+        "name": "Jugendtag",
+        "place": "Schwellbrunn (AI)",
+        "unplugged": ""
+      },
+      {
+        "date": "21. Mai",
+        "name": "Privater Anlass",
+        "place": "Speicher (AR)",
+        "unplugged": ""
+      },
+      {
+        "date": "30. Mai",
+        "name": "Open Doors",
+        "place": "St.Gallen (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "05. Juni",
+        "name": "Privater Anlass",
+        "place": "Romanshorn (TG)",
+        "unplugged": "TRUE"
+      },
+      {
+        "date": "18. Juni",
+        "name": "Grümpeliturnier",
+        "place": "Teufen (AR)",
+        "unplugged": ""
+      },
+      {
+        "date": "19. Juni",
+        "name": "Grümpeliturnier",
+        "place": "Teufen (AR)",
+        "unplugged": ""
+      },
+      {
+        "date": "20. August",
+        "name": "Seifenkistenderby",
+        "place": "Andwil (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "30. September",
+        "name": "Live uf dä Gass",
+        "place": "Rorschach (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "01. Oktober",
+        "name": "Herren Globus",
+        "place": "St.Gallen (SG)",
+        "unplugged": "TRUE"
+      },
+      {
+        "date": "02. Oktober",
+        "name": "Herren Globus",
+        "place": "St.Gallen (SG)",
+        "unplugged": "TRUE"
+      },
+      {
+        "date": "22. Oktober",
+        "name": "Talhof",
+        "place": "St.Gallen (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "23. Oktober",
+        "name": "Kultur in Mörschwil",
+        "place": "Mörschwil (SG)",
+        "unplugged": "TRUE"
+      },
+      {
+        "date": "07. November",
+        "name": "Villa am See",
+        "place": "Goldach (SG)",
+        "unplugged": "TRUE"
+      },
+      {
+        "date": "12. November",
+        "name": "Jugendtreff",
+        "place": "Degersheim (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "13. November",
+        "name": "Meisterfeier",
+        "place": "Märstetten (TG)",
+        "unplugged": ""
+      },
+      {
+        "date": "20. November",
+        "name": "Turnfest",
+        "place": "Sonterswil (TG)",
+        "unplugged": ""
+      },
+      {
+        "date": "27. November",
+        "name": "Turnverein",
+        "place": "Fahrwangen (AG)",
+        "unplugged": ""
+      },
+      {
+        "date": "03. Dezember",
+        "name": "Privater Anlass",
+        "place": "Engelburg (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "04. Dezember",
+        "name": "Turnverein",
+        "place": "Fahrwangen (AG)",
+        "unplugged": ""
+      },
+      {
+        "date": "18. Dezember",
+        "name": "Party Night",
+        "place": "Herisau (AR)",
+        "unplugged": ""
+      }
+    ]
   },
-  { 
+  {
+    "year": 2011,
+    "shows": [
+      {
+        "date": "19. Mai",
+        "name": "Live uf dä Gass",
+        "place": "Rorschach (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "03. September",
+        "name": "Plattentaufe Talhof",
+        "place": "St.Gallen (SG)",
+        "unplugged": ""
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "shows": [
+      {
+        "date": "28. April",
+        "name": "Lutzifer Pub",
+        "place": "Arbon (TG)",
+        "unplugged": ""
+      },
+      {
+        "date": "01. September",
+        "name": "Dorfchilbi",
+        "place": "Oberglatt (ZH)",
+        "unplugged": ""
+      },
+      {
+        "date": "15. September",
+        "name": "Fabrik",
+        "place": "Mosnang (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "29. September",
+        "name": "BandXOst 2012",
+        "place": "Herisau (AR)",
+        "unplugged": ""
+      },
+      {
+        "date": "27. Oktober",
+        "name": "Privater Anlass",
+        "place": "Bischofszell (TG)",
+        "unplugged": ""
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "shows": [
+      {
+        "date": "11. Mai",
+        "name": "Kulturkartell",
+        "place": "Erlen (TG)",
+        "unplugged": ""
+      },
+      {
+        "date": "17. Mai",
+        "name": "Privater Anlass",
+        "place": "Berneck (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "25. Mai",
+        "name": "Openair Bischofszell",
+        "place": "Bischofszell (TG)",
+        "unplugged": ""
+      },
+      {
+        "date": "10. August",
+        "name": "Hotel Bären",
+        "place": "Bazenheid (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "28. September",
+        "name": "BandxOst 2013",
+        "place": "Herisau (TG)",
+        "unplugged": ""
+      },
+      {
+        "date": "17. Oktober",
+        "name": "Clash Of Sounds 2013",
+        "place": "Bregenz (A)",
+        "unplugged": "TRUE"
+      },
+      {
+        "date": "25. Oktober",
+        "name": "AA-Jam",
+        "place": "Aadorf (TG)",
+        "unplugged": ""
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "shows": [
+      {
+        "date": "01. März",
+        "name": "Grabenhalle",
+        "place": "St.Gallen (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "21. Juni",
+        "name": "Sommerfest Iltenriet",
+        "place": "Goldach (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "23. August",
+        "name": "Strassenfest Jungkult",
+        "place": "St.Gallen (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "15. November",
+        "name": "Kornhausbräu",
+        "place": "Rorschach (SG)",
+        "unplugged": ""
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "shows": [
+      {
+        "date": "25. Februar",
+        "name": "Privater Anlass",
+        "place": "Speicher (AR)",
+        "unplugged": ""
+      },
+      {
+        "date": "07. März",
+        "name": "Raabenkeller",
+        "place": "Eschenz (TG)",
+        "unplugged": "unpluged"
+      },
+      {
+        "date": "01. Mai",
+        "name": "Rock am Freitag",
+        "place": "Wil (SG)",
+        "unplugged": "unpluged"
+      },
+      {
+        "date": "03. Juli",
+        "name": "Privater Anlass",
+        "place": "Goldach (SG)",
+        "unplugged": "unpluged"
+      },
+      {
+        "date": "07. Juli",
+        "name": "Rock Am Gleis",
+        "place": "Rheineck (SG)",
+        "url": "https://www.rockamgleis.ch/",
+        "unplugged": ""
+      },
+      {
+        "date": "22. Juli",
+        "name": "Privater Anlass",
+        "place": "Eggersriet (SG)",
+        "unplugged": "TRUE"
+      },
+      {
+        "date": "15. August",
+        "name": "St.Gallerfest",
+        "place": "St.Gallen (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "15. August",
+        "name": "Staablueme",
+        "place": "Altstätten (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "05. September",
+        "name": "Gassefescht",
+        "place": "Teufen (AR)",
+        "unplugged": "TRUE"
+      },
+      {
+        "date": "17. September",
+        "name": "Jugendtreff Cevi",
+        "place": "Rorschach (SG)",
+        "unplugged": "TRUE"
+      },
+      {
+        "date": "13. Oktober",
+        "name": "Talhof Festival",
+        "place": "St.Gallen (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "31. Dezember",
+        "name": "Irish Pub",
+        "place": "St.Gallen (SG)",
+        "unplugged": "TRUE"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "shows": [
+      {
+        "date": "23. Januar",
+        "name": "Privater Anlass",
+        "place": "Appenzell (AI)",
+        "unplugged": "TRUE"
+      },
+      {
+        "date": "09. September",
+        "name": "Privater Anlass",
+        "place": "Wil (SG)",
+        "unplugged": "TRUE"
+      },
+      {
+        "date": "28. Oktober",
+        "name": "Gädeli Bar",
+        "place": "Waldtstatt (AI)",
+        "url": "https://www.xn--gdeli-bar-v2a.ch/",
+        "unplugged": "TRUE"
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "shows": [
+      {
+        "date": "14. Juli",
+        "name": "Privater Anlass",
+        "place": "Arbon (TG)",
+        "unplugged": "TRUE"
+      },
+      {
+        "date": "07. April",
+        "name": "Privater Anlass",
+        "place": "Arbon (TG)",
+        "unplugged": "TRUE"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "shows": [
+      {
+        "date": "27. April",
+        "name": "Privater Anlass",
+        "place": "Mörschwil (SG)",
+        "unplugged": "TRUE"
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "shows": [
+      {
+        "date": "17. Juli",
+        "name": "Greenwood Festival",
+        "place": "Gossau (SG)",
+        "url": "https://greenwood-festival.com",
+        "unplugged": ""
+      },
+      {
+        "date": "31. Juli",
+        "name": "Openair Stärkliswil",
+        "place": "Andwil (SG)",
+        "unplugged": ""
+      },
+      {
+        "date": "13. August",
+        "name": "Openair Party",
+        "place": "Bernhardzell (SG)",
+        "url": "https://oapb.ch",
+        "unplugged": ""
+      },
+      {
+        "date": "14. August",
+        "name": "Openair Party",
+        "place": "Bernhardzell (SG)",
+        "url": "https://oapb.ch",
+        "unplugged": ""
+      },
+      {
+        "date": "06. November",
+        "name": "Treppenhaus",
+        "place": "Rorschach (SG)",
+        "url": "https://treppenhaus.ch",
+        "unplugged": ""
+      },
+      {
+        "date": "18. November",
+        "name": "Störkultur",
+        "place": "Amriswil (TG)",
+        "unplugged": ""
+      }
+    ]
+  },
+  {
     "year": 2022,
     "shows": []
   }
