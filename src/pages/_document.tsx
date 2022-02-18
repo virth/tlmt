@@ -3,7 +3,7 @@ import Document, { Head, Html, Main, NextScript } from 'next/document';
 export default class CustomDocument extends Document {
   render() {
     return (
-      <Html className="h-full font-light">
+      <Html className="h-full font-light" lang="de">
         <Head>
           <meta name="application-name" content="TLMT" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -14,7 +14,7 @@ export default class CustomDocument extends Document {
           <meta property="og:image" content="/img/monkey_sm.png" />
 
           <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
           <link rel="icon" href="/favicon.ico" />
           <link rel="manifest" href="/manifest.json" />
         </Head>
