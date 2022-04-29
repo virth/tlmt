@@ -2,6 +2,7 @@ import React, { FC } from 'react';
 import { Heading4 } from '../identity/heading-4';
 import { ContactInfo } from './contact-info';
 import { Grid } from './grid';
+import { Link } from './link';
 import { Section } from './section';
 import { SocialMediaLink } from './social-media-link';
 
@@ -10,6 +11,12 @@ export const Footer: FC = () => {
     <footer className="">
       <Section bgColor={true}>
         <Grid cols={4}>
+          <div>
+            <Heading4>Newsletter</Heading4>
+            <Link href="/newsletter" className="mr-8 mb-8">
+              abbonieren
+            </Link>
+          </div>
           <div>
             <Heading4>Kontakt</Heading4>
             <ContactInfo hoverBlack={true}></ContactInfo>

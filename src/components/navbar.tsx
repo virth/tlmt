@@ -1,5 +1,5 @@
 import { Disclosure } from '@headlessui/react';
-import { CalendarIcon, MenuIcon, XIcon } from '@heroicons/react/outline';
+import { MailIcon, MenuIcon, XIcon } from '@heroicons/react/outline';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { FC } from 'react';
@@ -55,11 +55,11 @@ const NavHeader: FC = () => {
               </div>
               <div className="flex items-center">
                 <div className="flex-shrink-0">
-                  <Link href="mailto:band@tlmt.ch">
+                  <Link href="/newsletter">
                     <a>
                       <Button>
-                        <CalendarIcon className="-ml-1 mr-2 h-5 w-5" aria-hidden="true" />
-                        <span>Booking</span>
+                        <MailIcon className="-ml-1 mr-2 h-5 w-5" aria-hidden="true" />
+                        <span>Abbonieren</span>
                       </Button>
                     </a>
                   </Link>

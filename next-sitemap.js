@@ -1,7 +1,8 @@
 // Pages that we consider to have a higher priority than others
 const priorities = {
   '/': 1,
-  '/presskit': 0.9,
+  '/news': 0.9,
+  '/presskit': 0.8,
 };
 
 module.exports = {

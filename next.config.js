@@ -19,6 +19,11 @@ module.exports = {
         destination: 'tel:+41792768141',
         permanent: true,
       },
+      {
+        source: '/newsletter',
+        destination: 'http://eepurl.com/hX792X',
+        permanent: true,
+      },
     ];
   },
 };

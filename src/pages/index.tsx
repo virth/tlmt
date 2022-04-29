@@ -1,7 +1,8 @@
-import type { GetServerSideProps, GetStaticProps, NextPage } from 'next';
+import type { GetServerSideProps, NextPage } from 'next';
 import { useState } from 'react';
 import { Grid, SpacingVariants } from '../components/grid';
 import Img from '../components/image';
+import { Link } from '../components/link';
 import { PageHeader } from '../components/page-header';
 import { Section } from '../components/section';
 import { ShowList } from '../components/showlist';
@@ -64,20 +65,24 @@ const Home: NextPage<Props> = ({ bandhelperGigs }) => {
         </Section>
       </PageHeader>
       <main>
-        <Section bgColor={true}>
+        <Section bgColor={true} title="News">
+          <Link href="/newsletter" className="mr-8 mb-8">
+            Newsletter abbonieren
+          </Link>
+          <Link href="/news">Alle News lesen</Link>
           <Grid cols={2}>
             <Teaser
-              title="video out now!"
-              imgPath="/img/releases/2021/bwyan.png"
-              href="https://youtu.be/75pBElJ-w3I"
-              text="Das Musikvideo zu unserem Song «Be With You All Night» jetzt auf YouTube."
-              linkText="Video ansehen"
+              title="Next Shows"
+              imgPath="/img/live/next-shows.png"
+              href="/#shows"
+              text="Am 13. Mai im PW Pub Gossau um 21h. Am 2. Juni im Treppenhaus Rorschach und 20.15h"
+              linkText="Alle Shows ansehen"
             />
             <Teaser
-              title="TFC — 80's Remix"
-              imgPath="/img/releases/2021/tfc-remix.png"
-              href="https://distrokid.com/hyperfollow/tlmt/time-for-a-change-80s-remix"
-              text="Achtzigerjahre Dance Remix von «Time For A Change» jetzt auf allen Streaming Plattformen."
+              title="Dissonance"
+              imgPath="/img/releases/2022/dissonance.png"
+              href="https://distrokid.com/hyperfollow/tlmt/dissonance"
+              text="Unsere erste Single im 2022. Zum ersten Mal übernimmt Dominik die Lead Vocals."
               linkText="Song anhören"
             />
           </Grid>
