@@ -23,7 +23,7 @@ const ElectronicPressKit: NextPage = () => {
           <div className="grid grid-cols1 lg:grid-cols-[1fr,2fr] gap-8 lg:gap-16">
             <div>
               <Heading2>Downloads</Heading2>
-              <Link href="/downloads/TLMT-Presskit-Januar-2022.zip">
+              <Link href="/downloads/TLMT-Presskit-April-2022.zip">
                 <a>
                   <Button>Download Presskit</Button>
                 </a>
