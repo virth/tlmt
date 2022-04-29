@@ -41,6 +41,7 @@ export const PageHeader: FC<PageHeaderProps> = ({
         {description && <meta name="description" content={description} />}
         <meta property="og:type" content="website" />
         <meta property="og:url" content={pageUrl} />
+        <meta property="og:image" content="/img/live/tlmt_profilpicture.png" />
         <meta property="og:title" content={title} />
         {description && <meta property="og:description" content={description} />}
         <meta property="twitter:card" content="summary_large_image" />
