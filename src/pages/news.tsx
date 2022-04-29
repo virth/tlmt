@@ -1,15 +1,26 @@
 import type { NextPage } from 'next';
 import { Grid } from '../components/grid';
+import { Link } from '../components/link';
 import { PageHeader } from '../components/page-header';
 import { Section } from '../components/section';
 import Teaser from '../components/teaser';
+import { Copy } from '../identity/copy';
 import { Heading1 } from '../identity/heading-1';
 
 const News: NextPage = () => {
   return (
     <div>
-      <PageHeader title="news">
+      <PageHeader title="News" description="Was gibts Neues bei TLMT?">
         <Heading1>News</Heading1>
+        <Copy>
+          Neue Musik, neue Shows und was sonst so läuft. Neuigkeiten von uns gibts auch <Link href="/links">hier</Link>. Und
+          wenn du sicher nix mehr verpassen willst:
+        </Copy>
+        <Copy>
+          <Link href="/newsletter">
+            <a>abboniere unseren Newsletter</a>
+          </Link>
+        </Copy>
       </PageHeader>
       <main>
         <Section bgColor={false}>

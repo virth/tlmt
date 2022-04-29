@@ -27,7 +27,7 @@ export const Grid: FC<GridProps> = ({ cols, children, className = '', spacing: g
       'grid',
       AvailableColumnLayouts[cols],
       'grid-flow-row my-8',
-      gap === SpacingVariants.default ? ' gap-8 xl:gap-16' : ' gap-4 xl:gap-8',
+      gap === SpacingVariants.default ? ' gap-x-8 gap-y-32 xl:gap-x-16 xl:gap-y-32' : ' gap-x-4 gap-y-8 xl:gap-8',
       className
     )}
   >

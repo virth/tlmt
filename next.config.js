@@ -2,7 +2,7 @@ module.exports = {
   reactStrictMode: true,
   pwa: {
     dest: 'public',
-    // disable: process.env.NODE_ENV !== 'production',
+    disable: process.env.NODE_ENV !== 'production',
   },
   eslint: {
     dirs: ['src'],
@@ -21,7 +21,12 @@ module.exports = {
       },
       {
         source: '/newsletter',
-        destination: 'http://eepurl.com/hX792X',
+        destination: 'https://eepurl.com/hX792X',
+        permanent: true,
+      },
+      {
+        source: '/links',
+        destination: 'https://linktr.ee/tlmt',
         permanent: true,
       },
     ];
