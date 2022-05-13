@@ -29,6 +29,11 @@ module.exports = {
         destination: 'https://linktr.ee/tlmt',
         permanent: true,
       },
+      {
+        source: '/follow',
+        destination: 'https://linktr.ee/tlmt_follow',
+        permanent: true,
+      },
     ];
   },
 };
