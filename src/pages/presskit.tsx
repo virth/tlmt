@@ -35,7 +35,7 @@ const ElectronicPressKit: NextPage = () => {
               </Link>
               <Link href="/downloads/TLMT-Rider_May-2022-(english).pdf">
                 <a>
-                <Button className="my-4">Download Tech Rider (english)</Button>
+                  <Button className="my-4">Download Tech Rider (english)</Button>
                 </a>
               </Link>
               <Heading2 className="mt-16">Musik</Heading2>
