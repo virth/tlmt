@@ -24,18 +24,18 @@ const ElectronicPressKit: NextPage = () => {
             <div>
               <Heading2>Downloads</Heading2>
               <Link href="/downloads/TLMT-Presskit-Mai-2022.zip">
-                <a>
-                  <Button className="my-4">Download Presskit</Button>
+                <a className="block my-8">
+                  <Button>Download Presskit</Button>
                 </a>
               </Link>
               <Link href="/downloads/TLMT-Rider_Mai-2022-(deutsch).pdf">
-                <a>
-                  <Button className="my-4">Download Tech Rider (deutsch)</Button>
+                <a className="block my-8">
+                  <Button>Download Tech Rider (deutsch)</Button>
                 </a>
               </Link>
               <Link href="/downloads/TLMT-Rider_May-2022-(english).pdf">
-                <a>
-                  <Button className="my-4">Download Tech Rider (english)</Button>
+                <a className="block my-8">
+                  <Button>Download Tech Rider (english)</Button>
                 </a>
               </Link>
               <Heading2 className="mt-16">Musik</Heading2>
