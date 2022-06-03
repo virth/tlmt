@@ -17,33 +17,8 @@ const band = [
   { name: 'Raphi', img: 'bg-raphi-gold hover:bg-raphi' },
 ];
 
-export type BandhelperGig = {
-  ID: string;
-  date_start: string;
-  name: string;
-  time_start: string;
-  custom_kbCdKP: string; // custom field: place
-  custom_j7cNfm: string; // custom field: url
-};
-
-type Props = {
-  bandhelperGigs: BandhelperGig[];
-};
-
-const Home: NextPage<Props> = ({ bandhelperGigs }) => {
+const Home: NextPage = () => {
   const [showAllShows, setShowAllShows] = useState(false);
-
-  const newGigs = bandhelperGigs.map(({ date_start, name, custom_j7cNfm: url, custom_kbCdKP: place }) => {
-    const date = new Date(date_start) as Date;
-
-    return {
-      date: date.toLocaleDateString('de-DE', { day: 'numeric', month: 'long' }),
-      name,
-      url: `https://${url}`,
-      unplugged: '',
-      place,
-    };
-  });
 
   const sortedShows = Shows.sort(({ year: a }, { year: b }) => {
     return b - a;
@@ -90,7 +65,6 @@ const Home: NextPage<Props> = ({ bandhelperGigs }) => {
 
         <Section title="Shows" navigationId="shows">
           <Grid cols="2-lg">
-            <ShowList key={2022} year={2022} shows={newGigs} />
             {sortedShows
               .filter(({ year }) => year > 2019)
               .map(({ year, shows }) => (
@@ -131,17 +105,6 @@ const Home: NextPage<Props> = ({ bandhelperGigs }) => {
       </main>
     </div>
   );
-};
-
-export const getServerSideProps: GetServerSideProps<Props> = async () => {
-  const response = await fetch('https://www.bandhelper.com/feed/calendar/32064?range=6');
-  const bandhelperGigs = await response.json();
-
-  return {
-    props: {
-      bandhelperGigs,
-    },
-  };
 };
 
 export default Home;
