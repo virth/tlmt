@@ -47,11 +47,11 @@ const Home: NextPage = () => {
           <Link href="/news">Alle News lesen</Link>
           <Grid cols={2}>
             <Teaser
-              title="Next Shows"
-              imgPath="/img/live/next-shows.png"
-              href="/#shows"
-              text="Am 13. Mai im PW Pub Gossau um 21h. Am 2. Juni im Treppenhaus Rorschach und 20.15h"
-              linkText="Alle Shows ansehen"
+              title="Alright"
+              imgPath="/img/releases/2022/alright.png"
+              href="https://distrokid.com/hyperfollow/tlmt/alright-2"
+              text="Inspiriert von den Klima Katastrophen in Sibirien. Unsere neuste Single «Alright»."
+              linkText="Song anhören"
             />
             <Teaser
               title="Dissonance"

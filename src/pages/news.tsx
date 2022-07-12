@@ -26,6 +26,13 @@ const News: NextPage = () => {
         <Section bgColor={false}>
           <Grid cols={3}>
             <Teaser
+              title="Alright"
+              imgPath="/img/releases/2022/alright.png"
+              href="https://distrokid.com/hyperfollow/tlmt/alright-2"
+              text="Inspiriert von den Klima Katastrophen in Sibirien. Unsere neuste Single «Alright»."
+              linkText="Song anhören"
+            />
+            <Teaser
               title="Next Shows"
               imgPath="/img/live/next-shows.png"
               href="/#shows"
