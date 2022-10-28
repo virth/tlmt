@@ -23,19 +23,14 @@ const ElectronicPressKit: NextPage = () => {
           <div className="grid grid-cols1 lg:grid-cols-[1fr,2fr] gap-8 lg:gap-16">
             <div>
               <Heading2>Downloads</Heading2>
-              <Link href="/downloads/TLMT-Presskit-Mai-2022.zip">
+              <Link href="/downloads/TLMT-Presskit-Oct-2022.zip">
                 <a className="block my-8">
                   <Button>Download Presskit</Button>
                 </a>
               </Link>
-              <Link href="/downloads/TLMT-Rider_Mai-2022-(deutsch).pdf">
+              <Link href="/downloads/TLMT-Presskit/TLMT-Rider_October-2022.pdf">
                 <a className="block my-8">
-                  <Button>Download Tech Rider (deutsch)</Button>
-                </a>
-              </Link>
-              <Link href="/downloads/TLMT-Rider_May-2022-(english).pdf">
-                <a className="block my-8">
-                  <Button>Download Tech Rider (english)</Button>
+                  <Button>Download Tech Rider</Button>
                 </a>
               </Link>
               <Heading2 className="mt-16">Musik</Heading2>
@@ -89,7 +84,7 @@ const ElectronicPressKit: NextPage = () => {
                   <InstagramIcon size="24" className="inline" /> Instagram: https://instagram.com/timt_rockband
                 </li>
                 <li>
-                  <YouTubeIcon size="24" className="inline" /> YouTube: https://youtube.com/c/The-limitCh
+                  <YouTubeIcon size="24" className="inline" /> YouTube: https://youtube.com/@tlmt_rockband
                 </li>
                 <li>
                   <FacebookIcon size="24" className="inline" /> Facebook: https://www.facebook.com/tlmtRockband

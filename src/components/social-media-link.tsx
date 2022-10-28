@@ -7,7 +7,7 @@ export const socialMediaLinks = {
   Facebook: 'https://www.facebook.com/tlmtRockband',
   Instagram: 'https://www.instagram.com/tlmt_rockband/',
   Spotify: 'https://open.spotify.com/artist/3OdzQZQLrZhJSmNXwXaVed?si=skgIxaiITc-IYP5mYFDH4A',
-  YouTube: 'https://www.youtube.com/c/The-limitCh?sub_confirmation=1',
+  YouTube: 'https://www.youtube.com/@tlmt_rockband',
 };
 
 export type SocialMediaLinkProps = {
