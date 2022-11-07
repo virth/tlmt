@@ -512,7 +512,7 @@
         "date": "02. Juni",
         "name": "Rorschach, da isch Musig",
         "place": "Rorschach (SG)",
-        "url": "treppenhaus.ch/events/rorschach-da-isch-musig-mit-tlmt-und-oliver-jam/",
+        "url": "https://treppenhaus.ch/events/rorschach-da-isch-musig-mit-tlmt-und-oliver-jam/",
         "unplugged": ""
       },
       {
@@ -526,7 +526,14 @@
         "date": "5. November",
         "name": "Dä 3, Stock",
         "place": "Herisau (AR)",
-        "url": "xn--d3stock-5wa.ch/event-details/dusty-seekers",
+        "url": "https://xn--d3stock-5wa.ch/event-details/dusty-seekers",
+        "unplugged": ""
+      },
+      {
+        "date": "16. Dezember",
+        "name": "Privater Anlass",
+        "place": "Goldach (SG)",
+        "url": "",
         "unplugged": ""
       }
     ]
