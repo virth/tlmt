@@ -56,11 +56,11 @@ const NavHeader: FC = () => {
               </div>
               <div className="flex items-center">
                 <div className="flex-shrink-0">
-                  <Link href="/newsletter">
-                    <a>
+                  <Link href="/booking">
+                    <a target="_blank">
                       <Button>
                         <MailIcon className="-ml-1 mr-2 h-5 w-5" aria-hidden="true" />
-                        <span>Abbonieren</span>
+                        <span>Booking</span>
                       </Button>
                     </a>
                   </Link>

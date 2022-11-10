@@ -34,6 +34,11 @@ module.exports = {
         destination: 'https://linktr.ee/tlmt_follow',
         permanent: true,
       },
+      {
+        source: '/booking',
+        destination: 'https://form.jotform.com/223137006943350',
+        permanent: true,
+      },
     ];
   },
 };
