@@ -39,6 +39,11 @@ module.exports = {
         destination: 'https://form.jotform.com/223137006943350',
         permanent: true,
       },
+      {
+        source: '/tour',
+        destination: 'https://bnds.us/i3cfba',
+        permanent: true,
+      },
     ];
   },
 };
