@@ -34,7 +34,6 @@ const Home: NextPage = () => {
         </Section>
       </PageHeader>
       <main>
-
         <Section title="Shows" navigationId="shows">
           <Script charSet="utf-8" src="https://widgetv3.bandsintown.com/main.min.js"></Script>
           <a
