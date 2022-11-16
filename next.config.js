@@ -44,6 +44,11 @@ module.exports = {
         destination: 'https://bnds.us/i3cfba',
         permanent: true,
       },
+      {
+        source: '/live',
+        destination: 'https://bnds.us/i3cfba',
+        permanent: true,
+      },
     ];
   },
 };

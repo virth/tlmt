@@ -1,6 +1,5 @@
 import type { NextPage } from 'next';
 import Script from 'next/script';
-import { useState } from 'react';
 import { Grid, SpacingVariants } from '../components/grid';
 import Img from '../components/image';
 import { Link } from '../components/link';
@@ -8,7 +7,6 @@ import { PageHeader } from '../components/page-header';
 import { Section } from '../components/section';
 import { SocialMediaLink } from '../components/social-media-link';
 import Teaser from '../components/teaser';
-import Shows from '../data/shows.json';
 
 const band = [
   { name: 'Josh', img: 'bg-josh-gold hover:bg-josh' },
@@ -34,7 +32,7 @@ const Home: NextPage = () => {
         </Section>
       </PageHeader>
       <main>
-        <Section title="Shows" navigationId="shows">
+        <Section title="Live" navigationId="Live">
           <Script charSet="utf-8" src="https://widgetv3.bandsintown.com/main.min.js"></Script>
           <a
             className="bit-widget-initializer"
