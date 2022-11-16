@@ -49,6 +49,26 @@ module.exports = {
         destination: 'https://bnds.us/i3cfba',
         permanent: true,
       },
+      {
+        source: '/youtube',
+        destination: 'https://www.youtube.com/@tlmt_rockband',
+        permanent: true,
+      },
+      {
+        source: '/insta',
+        destination: 'https://www.instagram.com/tlmt_rockband/',
+        permanent: true,
+      },
+      {
+        source: '/spotify',
+        destination: 'https://open.spotify.com/artist/3OdzQZQLrZhJSmNXwXaVed?si=skgIxaiITc-IYP5mYFDH4A',
+        permanent: true,
+      },
+      {
+        source: '/facebook',
+        destination: 'https://www.facebook.com/tlmtRockband',
+        permanent: true,
+      },
     ];
   },
 };

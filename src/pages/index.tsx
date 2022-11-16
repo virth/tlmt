@@ -23,16 +23,37 @@ const Home: NextPage = () => {
           <Img src="/img/monkey.png" alt={'angry gorilla'} className="max-h-[120vh]" />
         </div>
         <Section>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 xl:gap-16">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 xl:gap-16 mb-16">
             <SocialMediaLink socialMedia={'YouTube'} />
             <SocialMediaLink socialMedia={'Spotify'} />
             <SocialMediaLink socialMedia={'Instagram'} />
             <SocialMediaLink socialMedia={'Facebook'} />
           </div>
+          <Grid cols={2}>
+            <iframe
+              className="w-full h-80 rounded border-sundance border-2"
+              src="https://www.youtube.com/embed/H2fqc_j0dI4"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <iframe
+              className="w-full h-80 rounded border-sundance border-2"
+              src="https://www.youtube.com/embed/-UmrjxzyYb8"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </Grid>
+          <Link href="https://youtube.com/@tlmt_rockband" className="mr-8 mb-8">
+            Mehr Videos anschauen
+          </Link>
         </Section>
       </PageHeader>
       <main>
-        <Section title="Live" navigationId="Live">
+        <Section title="Live" navigationId="live">
           <Script charSet="utf-8" src="https://widgetv3.bandsintown.com/main.min.js"></Script>
           <a
             className="bit-widget-initializer"
