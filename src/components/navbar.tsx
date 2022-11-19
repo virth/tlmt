@@ -8,6 +8,7 @@ import { Button } from './button';
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Live', href: '/#live' },
+  { name: 'Unplugged', href: '/unplugged' },
   { name: 'Shop', href: 'https://shop.tlmt.ch' },
   { name: 'Band', href: '/#band' },
   { name: 'Presskit', href: '/presskit' },
