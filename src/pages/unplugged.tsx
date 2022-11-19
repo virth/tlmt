@@ -30,6 +30,15 @@ const Unplugged: NextPage = () => {
                   frameBorder="no"
                   allow="autoplay"
                   className="w-full h-40 rounded border-sundance border-2"
+                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1386586705&color=%23D1A65C&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=false"
+                ></iframe>
+                <iframe
+                  width="100%"
+                  height="300"
+                  scrolling="no"
+                  frameBorder="no"
+                  allow="autoplay"
+                  className="w-full h-40 rounded border-sundance border-2"
                   src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/206249134&color=%23D1A65C&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=false"
                 ></iframe>
                 <iframe
