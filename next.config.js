@@ -69,6 +69,11 @@ module.exports = {
         destination: 'https://www.facebook.com/tlmtRockband',
         permanent: true,
       },
+      {
+        source: '/review',
+        destination: 'https://g.page/r/CXjqKmvbMGK5EBM/review',
+        permanent: true,
+      },
     ];
   },
 };
