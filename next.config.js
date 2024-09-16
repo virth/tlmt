@@ -74,6 +74,11 @@ module.exports = {
         destination: 'https://g.page/r/CXjqKmvbMGK5EBM/review',
         permanent: true,
       },
+      {
+        source: '/help',
+        destination: 'https://crowdify.net/de/projekt/tlmt-album-2025',
+        permanent: true,
+      },
     ];
   },
 };
