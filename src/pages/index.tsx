@@ -7,6 +7,7 @@ import { PageHeader } from '../components/page-header';
 import { Section } from '../components/section';
 import { SocialMediaLink } from '../components/social-media-link';
 import Teaser from '../components/teaser';
+import { Button } from '../components/button';
 
 const band = [
   { name: 'Josh', img: 'bg-josh-gold hover:bg-josh' },
@@ -22,13 +23,13 @@ const Home: NextPage = () => {
         <div className="flex justify-center">
           {/* <Img src="/img/monkey.png" alt={'angry gorilla'} className="max-h-[120vh]" /> */}
           <iframe
-              className="h-56 lg:h-[800px] w-full m-2 lg:m-24 rounded border-sundance border-2"
-              src="https://www.youtube.com/embed/9L6jO14fcJM?si=dNC2mRiPYx1DO9Vd"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+            className="h-56 lg:h-[800px] w-full m-2 lg:m-24 rounded border-sundance border-2"
+            src="https://www.youtube.com/embed/9L6jO14fcJM?si=dNC2mRiPYx1DO9Vd"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
         </div>
         <Section>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 xl:gap-16 mb-16">
